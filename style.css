@@ -124,11 +124,18 @@ img {
 }
 
 .watch
- { background: #ff9800; }
+ { 
+    background-color: #ff9800;
+ }
 .bag
- { background: #ff0066; }
+ {
+     background-color: #ff0066; 
+}
 .shoes
- { background: #3b3bff; }
+ {
+     background-color: #3b3bff;
+     
+}
 
 
 .products {
