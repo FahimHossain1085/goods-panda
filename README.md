@@ -32,7 +32,7 @@ A minimal and responsive e-commerce landing page built with HTML5 and CSS3. This
 ![Mobile View](./Screenshots/mobile%20Screenshot%202.png) <br>
 *Mobile-friendly design with stacked layout*
 
-*[Live Site](https://fahimhossain1085.github.io/goods-panda/)
+[Live Site](https://fahimhossain1085.github.io/goods-panda/)
 
 ## 🧑 Author
 
