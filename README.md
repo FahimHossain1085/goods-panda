@@ -28,14 +28,9 @@ A minimal and responsive e-commerce landing page built with HTML5 and CSS3. This
 *Optimized tablet view with responsive flex layout*
 
 ### Mobile Preview
-<<<<<<< HEAD
-![Mobile View](./Screenshots/mobile%20Screenshot.png)
-![Mobile View](./Screenshots/mobile%20Screenshot%202.png)
-*Mobile-friendly design with stacked layout
-=======
 ![Mobile View](./Screenshots/mobile%20Screenshot.png) <br>
+![Mobile View](./Screenshots/mobile%20Screenshot%202.png) <br>
 *Mobile-friendly design with stacked layout*
->>>>>>> 2f47c7b5aab30e0d514925ce1aac8702547feed9
 
 ## 🧑 Author
 
