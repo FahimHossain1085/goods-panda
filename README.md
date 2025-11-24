@@ -31,7 +31,7 @@ A minimal and responsive e-commerce landing page built with HTML5 and CSS3. This
 ![Mobile View](./Screenshots/mobile%20Screenshot.png)
 *Mobile-friendly design with stacked layout
 
-## 👤 Author
+## 🧑 Author
 
 **Fahim Hossain**
 
