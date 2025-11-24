@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+body {
+    background: #ffffff;
+    color: #111;
+    font-family: "Poppins", sans-serif;
+    padding-inline: 15px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.menu-icon {
+    font-size: 22px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffecec;
+   
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    max-width: 45%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.price {
+    margin: 20px 0;
+    color: #ff0054;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+
+.btn, .btn-dark {
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #ff2b6d;
+    color: white;
+    font-size: 18px;
+    padding: 15px 45px;
+}
+
+.btn-dark {
+    background: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.categories h2 {
+    margin-bottom: 20px;
+
+}
+.category-box {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+.category {
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.watch
+ { background: #ff9800; }
+.bag
+ { background: #ff0066; }
+.shoes
+ { background: #3b3bff; }
+
+
+.products {
+    margin: 50px 0;
+   
+    
+}
+
+.product-container {
+    display: flex;
+    
+    gap: 25px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.product-card img {
+   
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.subscribe {
+    background: #ffecec;
+    margin-block: 100px; 
+    padding: 200px 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subscribe-form input {
+    padding: 12px;
+    width: 420px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 18px;
+}
+
+.subscribe-form .btn {
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+    .hero-text h1 {
+    font-size: 40px;
+    
+}
+}
+@media screen and (max-width: 992px) {
+ .product-container {
+    flex-direction: column;
+ }
+}
+@media screen and (max-width: 640px) {
+ .product-container {
+    flex-direction: column;
+ }
+ .category-product-container {
+    text-align: center;
+ }
+
+ .subscribe-form {
+    flex-direction: column;
+ }
+ .subscribe-form input {
+    width: 100%;
+ }
+ .hero {
+    flex-direction: column-reverse;
+ }
+ .hero-text {
+    max-width: 100%;
+ }
+
+ .category-box {
+    display: block;
+ }
+ .category-box div {
+    margin-bottom: 20px;
+ }
+ .container {
+    max-width: 100%;
+    
+ }
+
+ body {
+    padding: 0;
+ }
+ .hero,.category,.products,.subscribe,.product-card {
+    border-radius: 0;
+ }
+}
+@media screen and (max-width: 600px) {
+
+ .price-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+@media screen and (max-width: 400px) {
+
+    .hero-text h1 {
+    font-size: 30px;
+    
+}
+
+.header {
+    flex-direction: column;
+}
+
+.subscribe h2 {
+    font-size: 20px;
+}
+}
