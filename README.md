@@ -24,12 +24,12 @@ A minimal and responsive e-commerce landing page built with HTML5 and CSS3. This
 *Full desktop experience with complete layout and all features visible*
 
 ### Tablet Preview
-![Tablet View](./Screenshots/tablet%20Screenshot.png)
+![Tablet View](./Screenshots/tablet%20Screenshot.png) <br>
 *Optimized tablet view with responsive flex layout*
 
 ### Mobile Preview
-![Mobile View](./Screenshots/mobile%20Screenshot.png)
-*Mobile-friendly design with stacked layout
+![Mobile View](./Screenshots/mobile%20Screenshot.png) <br>
+*Mobile-friendly design with stacked layout*
 
 ## 🧑 Author
 
